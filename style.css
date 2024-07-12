@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: "Teko", sans-serif;     
+}
+
+body{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 60px;
+    font-family: "Teko", sans-serif;
+    color:#000000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+
+
+.calc_container{
+    background: linear-gradient(135deg, #ee96a4 , white);
+    border: 8px solid black;
+    border-radius: 15px;   
+    padding:20px;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 19px;
+   
+}
+
+
+#calculatorscreen{
+    height: 70px;
+    width: 370px;
+    border-radius: 15px;
+    border: 5px solid black;
+    background: #ffffff;
+}
+
+#screen{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    font-size: 60px;
+    
+}
+
+
+/* all buttons style */
+.btn{
+    height: 60px;
+    width: 75px;
+    font-size: 50px; 
+    border-radius: 12px;
+    border: 5px solid black;
+    background: rgb(233, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    
+}
+
+
+.btn:active{
+    background-color: #cbc1c1;
+
+}
+.equalsbtn{
+    width: 180px;
+    background-color: #e7bb68;
+}
+
+.operator{
+    background-color: #e7bb68;
+}
+
+.clear{
+    width: 180px;
+    margin-right: 88px;
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    #calculatorscreen{
+        height: 50px;
+        width: 300px;
+        
+    }
+    .calc_container{
+        width: 400px;
+        height: 500px; 
+        gap:10px     
+       
+    }
+    .btn{
+        font-size: 30px; 
+        height: 50px;
+        width: 70px;
+        border-radius: 12px;}
+
+
+    h1{
+    font-size: 50px;
+     }
+    
+     #screen{
+        font-size: 40px;
+        
+    }
+    .equalsbtn{
+        width: 160px;
+       
+    }
+    .clear{
+        width: 160px;
+        margin-right: 70px;
+    
+    }
+}
