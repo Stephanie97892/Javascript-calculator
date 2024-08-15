@@ -12,62 +12,67 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
 h1{
-    font-size: 60px;
-    font-family: "Teko", sans-serif;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
     color:#000000;
-    text-decoration: underline;
     text-transform: uppercase;
+    align-self: center;
     
 }
 
 
 .calc_container{
-    background: linear-gradient(135deg, #ee96a4 , white);
-    border: 8px solid black;
-    border-radius: 15px;   
+    background: linear-gradient(135deg, #dda358fe , white);
+    border: 4px solid #918a8a;
+    border-radius: 5px;   
     padding:20px;
-    width: 500px;
-    height: 700px;
+    width: 350px;
+    height: 500px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 19px;
+    gap: 10px;
    
 }
 
 
 #calculatorscreen{
-    height: 70px;
-    width: 370px;
-    border-radius: 15px;
-    border: 5px solid black;
+    height: 55px;
+    width: 300px;
+    border-radius: 5px;
+    border: 3px solid #918a8a;
     background: #ffffff;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 #screen{
     display: flex;
     justify-content: end;
     align-items: flex-start;
-    font-size: 60px;
+    font-size: 40px;
     
 }
 
 
+
 /* all buttons style */
 .btn{
-    height: 60px;
-    width: 75px;
-    font-size: 50px; 
-    border-radius: 12px;
-    border: 5px solid black;
+    height: 50px;
+    width: 60px;
+    font-size: 30px; 
+    border-radius: 5px;
+    border: 3px solid #918a8a;
     background: rgb(233, 230, 230);
     display: flex;
     justify-content: center;
     align-content:center;
+  
     
 }
 
@@ -77,56 +82,21 @@ h1{
 
 }
 .equalsbtn{
-    width: 180px;
-    background-color: #e7bb68;
+    width: 133px;
+    background-color: #dfa945;
 }
 
 .operator{
-    background-color: #e7bb68;
+    background-color: #dfa945;
 }
 
 .clear{
-    width: 180px;
-    margin-right: 88px;
-
+    width: 135px;
+    margin-right: 65px;
 }
 
 
+footer p{
+    font-size: 10px;
 
-@media only screen and (max-width: 992px) {
-    #calculatorscreen{
-        height: 50px;
-        width: 300px;
-        
-    }
-    .calc_container{
-        width: 400px;
-        height: 500px; 
-        gap:10px     
-       
-    }
-    .btn{
-        font-size: 30px; 
-        height: 50px;
-        width: 70px;
-        border-radius: 12px;}
-
-
-    h1{
-    font-size: 50px;
-     }
-    
-     #screen{
-        font-size: 40px;
-        
-    }
-    .equalsbtn{
-        width: 160px;
-       
-    }
-    .clear{
-        width: 160px;
-        margin-right: 70px;
-    
-    }
 }
